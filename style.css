@@ -1,0 +1,30 @@
+.container {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  border: 2px solid black;
+}
+.flex-box-rps {
+  margin: 10px;
+  border: 1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.flex-box-rps img {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+}
+.flex-box-rps img:hover {
+  cursor: pointer;
+  box-shadow: 0px 10px 50px rgb(144, 120, 250);
+}
+.reset {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
